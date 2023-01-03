@@ -1,0 +1,29 @@
+@media(max-width: 772px){
+    .header{
+        flex-direction: column;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .menu, li{
+        padding: 33px 0;
+    }
+
+    .menu, li a{
+        font-size: 40px;
+        padding: 17px 40px;
+    }
+
+    .btn{
+        font-size: 18px;
+        padding: 15px 22px;
+    }
+}
+   

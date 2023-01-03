@@ -1,0 +1,53 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    margin-right: 5.59px;
+}
+
+.titulo{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23.5px;
+}
+
+.menu, li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.63px;
+    padding: 10px 5px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #ffffff;
+}
+
+.btn{
+    background-color: #5BC241;
+    color: #ffffff;
+    font-weight: 300;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
